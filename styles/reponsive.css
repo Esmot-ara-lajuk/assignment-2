@@ -10,9 +10,11 @@
    } 
    .menu{
     display:block ;
+    color: white;
    }
    .hero-section,
-   .hero-buttons{
+   .hero-buttons,
+   .habits{
     flex-direction: column;
    }
    .workout-vedios{
@@ -22,5 +24,11 @@
    .tutorial-vedios{
     position: relative;
     right: 5px;
+   }
+   .habit-section{
+    width: 90%;
+   }
+   .habit{
+   padding: 1rem;
    }
 }
