@@ -39,6 +39,10 @@
   .primary-button:hover{
     box-shadow: 1px 2px 3px 4px rgba(112, 111, 98, 0.4);
   }
+  h1{
+    font-size: 3rem;
+    font-weight: 900;
+  }
   /* styling navbar */
   header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -161,3 +165,17 @@
     border-radius: 50%;
   }
   /* styling run section */
+  .run-section{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap:1.5rem ;
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+    padding: 2.5rem;
+    margin-top: 1rem;
+  }
+  .run-section img{
+    border-radius: 18px;
+  }
