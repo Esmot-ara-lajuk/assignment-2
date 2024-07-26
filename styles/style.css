@@ -179,3 +179,30 @@
   .run-section img{
     border-radius: 18px;
   }
+/* service section */
+.service{
+  width: 80%;
+  margin: 0 auto;
+}
+.service h1{
+  text-align: center;
+}
+.body-bulding,
+.indoor-cycling{
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(232, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 2rem 0;
+}
+.weight-loss{
+  text-align: right;
+  align-items: center;
+  padding: 1rem;
+}
+.icon{
+ font-size: 5rem !important;
+  
+}
