@@ -1,0 +1,26 @@
+@media screen and (max-width:576px) {
+    body{
+        margin: 0;
+    }
+    .navbar{
+        width: 100%;
+    }
+   .navbar li a{
+    display: none;
+   } 
+   .menu{
+    display:block ;
+   }
+   .hero-section,
+   .hero-buttons{
+    flex-direction: column;
+   }
+   .workout-vedios{
+    position: relative;
+    left: 140px;
+   }
+   .tutorial-vedios{
+    position: relative;
+    right: 5px;
+   }
+}
