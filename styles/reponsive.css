@@ -15,7 +15,8 @@
    .hero-section,
    .hero-buttons,
    .habits,
-   .run-section{
+   .run-section,
+   .calculation-part{
     flex-direction: column;
    }
    .workout-vedios{
@@ -31,5 +32,13 @@
    }
    .habit{
    padding: 1rem;
+   }
+   .calculator-heading{
+    padding-left: 1rem;
+    text-align: left;
+   }
+   .bmi-calculation input,
+   textarea{
+    width: 10rem;
    }
 }

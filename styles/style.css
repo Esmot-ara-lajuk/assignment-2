@@ -156,6 +156,7 @@
   }
   .habit-section p{
     margin-bottom: 2rem;
+    padding:0 3rem;
   }
   .habit-section h4{
     font-size: 1.2rem;
@@ -205,4 +206,62 @@
 .icon{
  font-size: 5rem !important;
   
+}
+/* styling BMI Calculator */
+.calculator-section{
+  text-align: center;
+}
+.calculator-heading{
+  padding-bottom: 1rem;
+}
+.bmi{
+  background-color: rgb(34, 34, 34);
+}
+.calculation-part{
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+  padding: 2rem;
+}
+.bmi-table{
+  width: 21rem;
+  border-collapse: collapse;
+}
+.bmi-table table,
+tr,
+th,
+td{
+  border:1px solid rgba(255, 255, 255, 0.1);
+}
+.bmi-table td{
+  color: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+}
+.bmi-table th{
+  padding: 1rem;
+}
+.bmi-calculation form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 50%;
+}
+.bmi-calculation input,
+textarea{
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  padding-left: 1rem;
+}
+.bmi-calculation input,
+textarea{
+  width: 17rem;
+  height: 3rem;
+}
+.bmi-calculation textarea{
+  height: 4rem;
+}
+.bmi-calculation button{
+  margin-top: 1rem;
 }
