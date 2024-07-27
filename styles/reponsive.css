@@ -37,6 +37,9 @@
     padding-left: 1rem;
     text-align: left;
    }
+   .bmi-table{
+    width: 19rem;
+   }
    .bmi-calculation input,
    textarea{
     width: 10rem;
