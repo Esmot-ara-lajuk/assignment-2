@@ -265,3 +265,90 @@ textarea{
 .bmi-calculation button{
   margin-top: 1rem;
 }
+/* styleling team */
+.team{
+  width: 80%;
+  margin: 0 auto
+}
+.team-des{
+  text-align: center;
+}
+.team-image{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgba(112, 111, 98, 0.4);
+}
+.t-text{
+  position: relative;
+  top: 11rem;
+  font-weight: bold;
+}
+.trainer-1{
+  background-image: url(../image/trainer1.png);
+  background-size: cover;
+  height: 17rem;
+  border-radius: 1rem;
+}
+.trainer-2{
+  background-image: url(../image/trainer2.png);
+  background-size: cover;
+  height: 17rem;
+  border-radius: 1rem;
+}
+.trainer-3{
+  background-image: url(../image/trainer3.png);
+  background-size: cover;
+  height: 17rem;
+  border-radius: 1rem;
+
+}
+.trainer-4{
+  background-image: url(../image/trainer4.png);
+  background-size: cover;
+  height: 17rem;
+  border-radius: 1rem;
+}
+.trainer-5{
+  background-image: url(../image/trainer5.png);
+  background-size: cover;
+  height: 17rem;
+  border-radius: 1rem;
+}
+.trainer-6{
+  background-image: url(../image/trainer6.png);
+  background-size: cover;
+  height: 17rem;
+  border-radius: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

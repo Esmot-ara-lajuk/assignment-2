@@ -44,4 +44,8 @@
    textarea{
     width: 10rem;
    }
+   .team-image{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+   }
 }
