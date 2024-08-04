@@ -48,4 +48,13 @@
     grid-template-columns: 1fr;
     gap: 1rem;
    }
+   .foot{
+    grid-template-columns: 1fr;
+   }
+   .foot-nav{
+    margin-left: 0;
+   }
+   footer hr{
+    width: 100%;
+   }
 }

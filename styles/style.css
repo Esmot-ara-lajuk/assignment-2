@@ -44,10 +44,7 @@
     font-weight: 900;
   }
   /* styling navbar */
-  header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-  }
-  .navbar{
+ .navbar{
     justify-content: space-between;
     align-items: center;
     width: 80%;
@@ -268,7 +265,7 @@ textarea{
 /* styleling team */
 .team{
   width: 80%;
-  margin: 0 auto
+  margin: 0 auto;
 }
 .team-des{
   text-align: center;
@@ -322,6 +319,36 @@ textarea{
   background-size: cover;
   height: 17rem;
   border-radius: 1rem;
+}
+/* styling footer */
+footer{
+  background-color: rgba(255, 255, 255, 0.1);
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+.foot{
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  padding: 2rem 0;
+}
+.foot-logo{
+  color: rgb(230, 83, 60);
+  font-size: 4.3rem;
+  font-weight: 800;
+  font-style: italic;
+}
+.foot-nav{
+  margin-left: 3rem;
+}
+.foot-copyright{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+footer hr{
+  width: 80%;
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 
